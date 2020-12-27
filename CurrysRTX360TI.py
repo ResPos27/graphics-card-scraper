@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 results = []
-
+siteItem = ""
 
 def connectToNewLink(products):
     counter = 0
@@ -16,7 +16,7 @@ def connectToNewLink(products):
             results.append([name.span.text, price.text.strip(), link])
 
 
-request = requests.get("https://www.currys.co.uk/gbuk/search-keywords/xx_xx_30343_xx_xx/rtx%2B3060%2Bti/xx_xx_xx_xx_0-3-criteria.html")
+request = requests.get()
 soup = BeautifulSoup(request.text, features="html.parser")
 products = []
 for product in soup.find_all(class_="productTitle"):
