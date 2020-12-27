@@ -16,7 +16,7 @@ def connectToNewLink(products):
             results.append([name.span.text, price.text.strip(), link])
 
 
-request = requests.get()
+request = requests.get(siteItem)
 soup = BeautifulSoup(request.text, features="html.parser")
 products = []
 for product in soup.find_all(class_="productTitle"):
