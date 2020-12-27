@@ -2,7 +2,7 @@
 This program is designed to work on the Currys UK website to automatically visit each search result and output whether the product in question is in stock. If the product is in stock, the manufacturer, price and URL will be printed out.
 
 ## Getting Started
-Install the dependencies, which can be found in requirements.txt.
+Install the dependencies, which can be found in [requirements.txt](../main/requirements.txt).
 
 Place the search URL of the item to be scraped, into the _siteItem_ variable, as a string.
 
