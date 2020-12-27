@@ -1,11 +1,14 @@
 # Currys web scraper
-This program is designed to work on the Currys UK website.
+This program is designed to work on the Currys UK website to automatically visit each search result and output whether the product in question is in stock. If the product is in stock, the manufacturer, price and URL will be printed out.
 
 ## Getting Started
-Placing the search URL of the item to be scraped, into the _siteItem_ variable is required for the program to operate.
+Install the dependencies, which can be found in requirements.txt
+Placing the search URL of the item to be scraped, into the _siteItem_ variable.
 
 ### Prerequisites
-pip install requirements.txt
+```pip install -r requirements.txt```
+
+
 
 ## License
-This project is licensed underthe MIT License - see the [LICENSE.md](../) for details.
+This project is licensed underthe MIT License - see the [LICENSE.md](../main/LICENSE) for details.
