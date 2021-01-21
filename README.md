@@ -9,15 +9,22 @@ Place the search URL of the item to be scraped, into the _siteItem_ variable, as
 ### Prerequisites
 ```pip install -r requirements.txt```
 
-
 ### Technologies
-Python 3.7.5
+Python 3.8.6
 
 [BeautifulSoup 4.9.3](https://pypi.org/project/beautifulsoup4/)
 
 [Aiohttp](https://pypi.org/project/aiohttp/)
 
 Asyncio, part of the standard Python library since version 3.4.
+
+### Docker
+* Install Docker 
+* Build the Docker image:
+`docker build -t webscraper .`
+
+* Run the Docker image
+`docker run webscraper`
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](../main/LICENSE) for details.
