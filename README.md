@@ -21,9 +21,11 @@ Asyncio, part of the standard Python library since version 3.4.
 ### Docker
 * Install Docker 
 * Build the Docker image:
+
 `docker build -t webscraper .`
 
 * Run the Docker image
+
 `docker run webscraper`
 
 ## License
